@@ -15,8 +15,8 @@ public class TestSort {
         System.out.println();
 
 //        QuickSort.quickSort(arr, 0, arr.length-1);
-        MergeSort1.sort(arr);
-
+//        MergeSort1.sort(arr);
+        BubbleSort.bubbleSort(arr);
         System.out.println("after sort:");
         for (int i : arr) {
             System.out.print(i + " ");
